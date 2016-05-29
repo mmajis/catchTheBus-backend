@@ -94,7 +94,7 @@ Q_ARRIVAL = """
 
 HEADERS = {"Content-Type": "application/graphql", "Accept": "application/json; charset=UTF-8"}
 
-USER_LEAD_TIME_SECONDS = 20 * 60
+USER_LEAD_TIME_SECONDS = 2 * 60
 
 def planTrip():
     response = requests.post(URL, data=Q_ITINERARY, headers=HEADERS)
